@@ -1,0 +1,11 @@
+USED IN EC2 INSTANCE 21/11/24 - 
+
+docker build -t my-python-app . (to create image with that name )
+docker run -d my-python-app
+docker ps (list all contains with details)
+docker ps -q (only ids of containers will be displayed)
+docker stop 894c6614cd85 (stops the containers working)
+docker inpect 894c6614cd85 (get entire details of container)
+docker system df (displays the number of images, conatiners,volumes etc)
+docker-compose up -d (to run docker compose file)
+
