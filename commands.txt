@@ -8,3 +8,16 @@ docker stop 894c6614cd85 (stops the containers working)
 docker inpect 894c6614cd85 (get entire details of container)
 docker system df (displays the number of images, conatiners,volumes etc)
 docker-compose up -d (to run docker compose file)
+
+-----------------------------------------------------------
+USED IN EC2 INSTANCE 22/11/24 -
+
+1. to execute docker-compose , 
+
+-> docker-compose up --build
+docker-compose log
+docker-compose down
+
+2. 
+
+
